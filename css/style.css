@@ -1,14 +1,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:sans-serif;
   font-size: large;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 nav {
-  background-color: #3b3a3a;
+  background-color: #a2b9bc;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -37,7 +37,7 @@ nav .array-inputs #a_speed {
 }
 
 nav .array-inputs #a_generate {
-  background-color: transparent;
+  background-color: green;
   border: none;
   outline: none;
   color: white;
@@ -59,7 +59,7 @@ nav .header_right .nav-heading {
 
 
 nav .header_right .algos button {
-  background-color: transparent;
+  background-color: black;
   border: none;
   color: white;
   outline: none;
@@ -88,12 +88,12 @@ nav .header_right .algos .butt_selected {
 }
 
 nav .header_right .algos .butt_selected:hover {
-  background-color: white;
+  background-color: #deeaee;
   cursor: pointer;
 }
 
 nav .header_right .algos .butt_unselected:hover {
-  background-color: blue;
+  background-color: green;
   cursor: pointer;
 }
 
@@ -105,18 +105,21 @@ section {
 }
 
 section #Info_Cont1 {
+  background-color:  #f7cac9;
   padding: 20%;
 }
 
 section #array_container {
   display: -webkit-box;
   display: -ms-flexbox;
+  background-color:  #f7cac9;
   display: flex;
   width: 100%;
   height: 70vh;
 }
 
 section #Info_Cont2 {
+  background-color:  #f7cac9;
   padding: 20%;
 }
 
